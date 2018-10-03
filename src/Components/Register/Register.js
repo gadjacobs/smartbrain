@@ -23,7 +23,7 @@ class Register extends Component {
   };
 
   onSubmitSignIn = () => {
-    fetch('https://obscure-earth-76272.herokuapp.com/   register', {
+    fetch('https://obscure-earth-76272.herokuapp.com/register', {
       method: 'post',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
